@@ -1,0 +1,31 @@
+pwd : to find where you are(dictinary)
+ls : ls lists the contents of your current directory (the one displayed by pwd)
+cat: to see contents of files
+relative path : đường dẫn tương đối
+absolute path : đường dẫn tuyệt đối(/)
+/tmp : keep files we only need briefly.
+cat : look at contents that files have, then scroll through the output
+less: to view files to page the output
+	:p : to go the back file
+	:n : to go to the next file
+	:p : to quit
+head: print 10 lines if files have >=10 line
+tail: print the last lines of files
+cut : print columns
+head -n: n is how many lines that we want to print
+ls -R : Fistly, list directories then list all files in dicectories
+ls -F : Only list dicrectories
+man : to find out what commands do (man automatically invokes less)
+re-run : !
+grep: select lines accoding to what they contain
+	-c: print a count of matching lines rather than the lines themselves
+	-h: do not print the names of files when searching multiple files
+	-i: ignore case (e.g., treat "Regression" and "regression" as matches)
+	-l: print the names of files that contain matches, not the matches
+	-n: print line numbers for matching lines
+	-v: invert the match, i.e., only show lines that don't match
+> : save output into anather file
+pi
+
+ssh ten_may_chu@ip_may_chu
+password: password of account
